@@ -8,7 +8,8 @@ stage ('checkout') {
 
 
 steps {
-git branch: 'master', url: https://github.com/nasa7733/test01/new/master.git
+git branch: 'master', url: https://github.com/nasa7733/test01.git
+ 
 
 }
 }
